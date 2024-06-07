@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind landing page</title>
+    <!-- ==== google font link ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ==== fontawesome cdn link ==== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ==== css file link ==== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-bg-dark-color font-poppines">
+    <!-- ==== header part start ==== -->
+    <header
+      id="header"
+      class="fixed bottom-0 left-0 bg-gradient-to-r from-indigo-500 to-emerald-500 w-full"
+    >
+      <nav class="text-center text-white">
+        <ul class="flex justify-center items-center">
+          <li
+            class="list-none w-full py-7 hover:bg-primary-color transition-colors"
+          >
+            <a href="#home" class="inline-flex"
+              ><i class="fa-solid fa-home text-xl mr-2"></i
+              ><span class="text-lg font-medium hidden md:block">Home</span></a
+            >
+          </li>
+          <li
+            class="list-none w-full py-7 hover:bg-primary-color transition-colors"
+          >
+            <a href="#about" class="inline-flex"
+              ><i class="fa-solid fa-user text-xl mr-2"></i
+              ><span class="text-lg font-medium hidden md:block">About</span></a
+            >
+          </li>
+          <li
+            class="list-none w-full py-7 hover:bg-primary-color transition-colors"
+          >
+            <a href="#service" class="inline-flex"
+              ><i class="fa-solid fa-gear text-xl mr-2"></i
+              ><span class="text-lg font-medium hidden md:block"
+                >Service</span
+              ></a
+            >
+          </li>
+          <li
+            class="list-none w-full py-7 hover:bg-primary-color transition-colors"
+          >
+            <a href="#contact" class="inline-flex"
+              ><i class="fa-solid fa-envelope text-xl mr-2"></i
+              ><span class="text-lg font-medium hidden md:block"
+                >Contact</span
+              ></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ==== header part end ==== -->
+    <!-- ==== home part start ==== -->
+    <section id="home" class="my-16">
+      <div class="w-11/12 mx-auto md:w-4/5">
+        <div
+          class="border-[1px] border-zinc-700 rounded-xl p-5 md:flex md:justify-between md:items-center md:border-0"
+        >
+          <div class="md:">
+            <img
+              class="w-[300px] md:w-[450px] border-[1px] border-zinc-700 rounded-xl bg-bg-color p-8 md:p-12"
+              src="../img/home.svg"
+              alt="home"
+            />
+          </div>
+          <div class="text-white mt-5 md:md:w-6/12">
+            <h5 class="text-primary-color text-lg font-semibold mb-3">
+              PLATFORM BUSINESS GROWTH
+            </h5>
+            <h3 class="text-3xl font-bold mb-4 md:text-4xl md:leading-10">
+              Get Your Online Business Goals In Order
+            </h3>
+            <button
+              class="bg-primary-color py-4 px-8 rounded-lg text-base font-medium hover:bg-white hover:text-black transition-colors"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==== home part end ==== -->
+    <!-- ==== about part start ==== -->
+    <section id="about" class="my-16">
+      <div class="w-11/12 mx-auto md:w-4/5">
+        <div
+          class="border-[1px] border-zinc-700 rounded-xl p-5 md:flex md:justify-between md:items-center md:border-0"
+        >
+          <div class="md:">
+            <img
+              class="w-[300px] md:w-[450px] border-[1px] border-zinc-700 rounded-xl bg-bg-color p-8 md:p-12"
+              src="../img/about.svg"
+              alt="home"
+            />
+          </div>
+          <div class="text-white mt-5 md:md:w-6/12">
+            <h5 class="text-primary-color text-lg font-semibold mb-3">
+              WHO WE ARE?
+            </h5>
+            <h3 class="text-3xl font-bold mb-4 md:text-4xl md:leading-10">
+              Front-End Web Developer
+            </h3>
+            <p class="mb-5 text-lg">
+              With our low code solution you can model your process automation
+              by yourself. This will increase your productivity in real time and
+              bring all-around flexibility and best-in-class quality.
+            </p>
+            <button
+              class="bg-primary-color py-4 px-8 rounded-lg text-base font-medium hover:bg-white hover:text-black transition-colors"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==== about part end ==== -->
+    <!-- ==== service part start ==== -->
+    <section id="service" class="my-16">
+      <div class="w-11/12 mx-auto md:w-4/5">
+        <div
+          class="border-[1px] border-zinc-700 rounded-xl p-5 md:flex md:justify-between md:items-center md:border-0"
+        >
+          <div>
+            <img
+              class="w-[300px] md:w-[450px] border-[1px] border-zinc-700 rounded-xl bg-bg-color p-8 md:p-12"
+              src="../img/service.svg"
+              alt="home"
+            />
+          </div>
+          <div class="text-white mt-5 md:md:w-6/12">
+            <h5 class="text-primary-color text-lg font-semibold mb-3">
+              OUR SPECIALIZE
+            </h5>
+            <h3 class="text-3xl font-bold mb-4 md:text-4xl md:leading-10">
+              WHAT WE OFFER?
+            </h3>
+            <p class="mb-5 text-lg">
+              With our low code solution you can model your process automation
+              by yourself. This will increase your productivity in real time and
+              bring all-around flexibility and best-in-class quality.
+            </p>
+            <button
+              class="bg-primary-color py-4 px-8 rounded-lg text-base font-medium hover:bg-white hover:text-black transition-colors"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="mt-5 md:grid md:grid-cols-4 md:gap-4">
+          <div
+            class="border-[1px] border-zinc-700 bg-bg-color rounded-lg text-white text-center p-6 mb-4"
+          >
+            <i class="fa-brands fa-figma text-4xl mb-2"></i>
+            <h3 class="text-2xl font-semibold mb-2">UI/UX Design</h3>
+            <p class="text-lg font-medium">
+              It is a involves the systematic analysis of data to gain valuable
+              insights into the various type aspects of a business.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-zinc-700 bg-bg-color rounded-lg text-white text-center p-6 mb-4"
+          >
+            <i class="fa-solid fa-money-bill-trend-up text-4xl mb-2"></i>
+            <h3 class="text-2xl font-semibold mb-2">Digital Marketing</h3>
+            <p class="text-lg font-medium">
+              It is a involves the systematic analysis of data to gain valuable
+              insights into the various type aspects of a business.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-zinc-700 bg-bg-color rounded-lg text-white text-center p-6 mb-4"
+          >
+            <i class="fa-solid fa-laptop-code text-4xl mb-2"></i>
+            <h3 class="text-2xl font-semibold mb-2">Web Developments</h3>
+            <p class="text-lg font-medium">
+              It is a involves the systematic analysis of data to gain valuable
+              insights into the various type aspects of a business.
+            </p>
+          </div>
+          <div
+            class="border-[1px] border-zinc-700 bg-bg-color rounded-lg text-white text-center p-6"
+          >
+            <i class="fa-solid fa-swatchbook text-4xl mb-2"></i>
+            <h3 class="text-2xl font-semibold mb-2">Product Design</h3>
+            <p class="text-lg font-medium">
+              It is a involves the systematic analysis of data to gain valuable
+              insights into the various type aspects of a business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==== service part end ==== -->
+    <!-- ==== contact part start ==== -->
+    <section id="contact" class="my-16 mb-36">
+      <div class="w-11/12 mx-auto md:w-4/5">
+        <div
+          class="border-[1px] border-zinc-700 rounded-xl p-5 md:flex md:justify-between md:items-center md:border-0"
+        >
+          <div class="">
+            <img
+              class="w-[300px] md:w-[450px] border-[1px] border-zinc-700 rounded-xl bg-bg-color p-8 md:p-12"
+              src="../img/contact.svg"
+              alt="contact"
+            />
+          </div>
+          <div class="text-white mt-5 md:md:w-6/12">
+            <div class="flex items-center gap-4 mb-4">
+              <input
+                class="w-6/12 h-12 px-3 bg-bg-color border-[1px] border-zinc-700 rounded-md outline-none"
+                type="text"
+                placeholder="Enter Your Name"
+              />
+              <input
+                class="w-6/12 h-12 px-3 bg-bg-color border-[1px] border-zinc-700 rounded-md outline-none"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <textarea
+              class="w-full bg-bg-color border-[1px] border-zinc-700 rounded-md outline-none p-3 h-80 resize-none"
+              name=""
+              placeholder="Message..."
+            ></textarea>
+            <button
+              class="bg-primary-color py-4 px-14 rounded-lg text-base font-medium mt-3 hover:bg-white hover:text-black transition-colors"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==== contact part end ==== -->
+  </body>
+</html>
